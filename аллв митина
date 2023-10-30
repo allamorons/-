@@ -1,0 +1,7 @@
+a=int(input())
+w=0
+s=a
+while  s>0 :
+    w=w+s%10
+    s=s//10
+print(w) 
