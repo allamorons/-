@@ -1,0 +1,5 @@
+n1= input()
+n2= input()
+r1= int(n1, 37)
+r2= int(n2, 37)
+print(r1+r2)
