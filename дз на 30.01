@@ -1,0 +1,15 @@
+t= int(input())
+i=1
+q=0
+for i in range(1,t+1):
+ i = []
+ def sum_digits(b):
+    if (b == 0):
+        return i
+    dig = b % 10
+    i.append(dig)
+    sum_digits(b // 10)
+ n = int(input())
+ sum_digits(n)
+ q=q+sum(i)
+print(q)
