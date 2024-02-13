@@ -1,8 +1,8 @@
 def all():
     list = []
     mor=int(input("количество чисел"))
-    print("введите числа")
     for x in range(0,mor):
+        print("введите число")
         h=int(input())
         list.append(h)
     s=int(input("введите число которое нужно убрать "))
