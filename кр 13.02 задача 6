@@ -1,0 +1,10 @@
+def all():
+    list = []
+    mor=int(input("количество чисел"))
+    print("введите числа")
+    for x in range(0,mor):
+        h=int(input())
+        list.append(h)
+    s=int(input("введите число которое нужно убрать "))
+    return [x for x in list if x !=s]
+print(all())
