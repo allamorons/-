@@ -1,0 +1,6 @@
+print("Введите строки через пробелл(Например:привет я дома)")
+words = input().split()
+print("Вам Ввыведутся отсортерованные строки по колличеству знаков в порядке возрастания (Например:['я', 'дома', 'привет']")
+sorted_words = sorted(words, key=len, reverse=True)
+sorted_words.reverse()
+print(sorted_words)
